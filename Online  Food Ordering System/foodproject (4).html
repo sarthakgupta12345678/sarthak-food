@@ -1,0 +1,92 @@
+<html>
+<head>
+    <title>ONLINE FOOD ORDERING SYSTEM</title>
+ <style>
+p1{
+background-color:green;
+}
+</style>
+</head>
+<body background ="pro2.jpg" >
+   
+<script>
+    function show(){
+    document.getElementById('display').innerHTML = document.getElementById('conform').value;
+   
+    alert("Are you conform with your orders?");
+    }
+
+   
+</script>
+
+ <center>
+
+   <h1 style="color:Red"><b><u>FOOD HUB</u></b></h1>
+   <a href="https://www.justdial.com/Kota-Rajasthan/Al-Kareem-Restaurant-Near-Esi-Hospital-Jhalawar-Road-Vigyan-Nagar/9999PX744-X744-110408124002-M9G2_BZDET">Restaurant</a>||
+   <a href="https://www.tripadvisor.in/Restaurant_Review-g608475-d5325621-Reviews-Al_Kareem_Fried_Chicken-Kota_Kota_District_Rajasthan.html">Restaurant Review</a>||
+   <a href="https://m.facebook.com/profile.php?id=472371442789605">On Facebook</a>
+   <h2 style="color:blue"><i>Address:Vigyan Nagar,Kota</i></h2>
+   <h2 style="color:blue"><i>Pincode:324005</i></h2>
+    <a href="About Res.html"><img src="res1.webp"></img></a>
+    </center>
+   <center> <h2 style="color:red"><b><i><marquee>We are here for your delicious food.And we are here with your choice,Get us chance to serve you.</marquee> </i></b></h2></center>
+     <center><h1 style="color:green"><b><u>OUR MENU</u></b><h1></center>
+
+<br>
+<center>
+
+<iframe src="rp1.html" height="700px" width="1500px"></iframe>
+</center>
+<br>
+
+<center><h2 style="color:red"><b><i><marquee>Let Us Know If You Want Something Different From Our Menu.We are Here to Serve You.</marquee></i></b></h2></center>
+<br>
+
+<center>
+<center><img src="img.jpeg" height="600px" width="1000px"></img></center>
+<br>
+<form  action="insert_order.php" method="post">
+<label><b>Your Order</b> </label>
+<select name="item">
+     <option>Select</option>
+    <option>Veg iteam</option>
+    <option>Non Veg iteam</option>
+    <option>Roties</option>  
+    </select>
+<br><br>
+<input type="checkbox" name="cuisine">
+<label><b>Starter</b></label>
+<input type="checkbox">
+<label><b>Main Course</b></label>
+<br><br>
+
+<h2><b>Share Your Contact Information:<b></h2>
+<lable>Address</lable>
+<textarea rows="6" cols="8" name="address"></textarea>
+<br><br>
+<lable><b>Contact no.</b></lable>
+<input type="textbox" name="contact">
+<br><br>
+<lable><b>Conform</b></lable>
+<input type="checkbox" id="conform">
+
+<br><br>
+
+<center><img src="project 1.jpg"></img></center>
+<br><br>
+<center><input type="button" value="Order Now" onclick="show();"></center>
+<br><br>
+
+Your Order is:<p id="display"></p>
+<br><br>
+<button>Submit</button>
+</form>
+  <h3 style="color:blue"><b><i>Contact us:</i></b></h3>
+  <p1><b><i>phn no.:6392204445</i></b></p1>
+  <br>
+  <p2><b><i>e-mail:sarthakgupta8306@gmail.com</i></b></p2>
+  
+
+ </center>
+</body>
+</html>
